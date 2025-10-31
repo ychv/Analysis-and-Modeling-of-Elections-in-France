@@ -1,3 +1,7 @@
 from dataImport import *
 
-print(importCommuneData(92260))
+feature_list = ['pvoteppar','pvotepvoteG','pvotepvoteC','pvotepvoteD','agesexcommunes/perage_rank']
+
+data = importCommuneData(95625,feature_list)
+
+print(data)
